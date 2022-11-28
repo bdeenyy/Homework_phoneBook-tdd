@@ -25,6 +25,7 @@ class PhoneBookTest {
 
         String testName = "Test";
         String testNumber = "1234567";
+        phoneBook.add(testName, testNumber);
 
         String expected = testNumber;
 

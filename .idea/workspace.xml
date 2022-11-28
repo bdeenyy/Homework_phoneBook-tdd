@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1d2d63c-0560-4f9e-91cf-58dcadd92415" name="Changes" comment="add implemented">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a1d2d63c-0560-4f9e-91cf-58dcadd92415" name="Changes" comment="Stub and tests for findByNumber">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/bdeenyy/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/bdeenyy/PhoneBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/bdeenyy/PhoneBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/bdeenyy/PhoneBookTest.java" afterDir="false" />
     </list>
@@ -121,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669622143945</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Stub and tests for findByNumber">
+      <created>1669625984163</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669625984163</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +145,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Stub and tests for add" />
     <MESSAGE value="add implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="add implemented" />
+    <MESSAGE value="Stub and tests for findByNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stub and tests for findByNumber" />
   </component>
 </project>
