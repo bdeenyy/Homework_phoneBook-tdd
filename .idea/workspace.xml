@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1d2d63c-0560-4f9e-91cf-58dcadd92415" name="Changes" comment="Stub and tests for findByNumber">
+    <list default="true" id="a1d2d63c-0560-4f9e-91cf-58dcadd92415" name="Changes" comment="findByNumber implemented">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/bdeenyy/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/bdeenyy/PhoneBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/github/bdeenyy/PhoneBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/github/bdeenyy/PhoneBookTest.java" afterDir="false" />
     </list>
@@ -50,7 +50,7 @@
       <recent name="com.github.bdeenyy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PhoneBookTest.findByNumber">
+  <component name="RunManager" selected="JUnit.PhoneBookTest.findByName">
     <configuration name="PhoneBookTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Homework_phoneBook-tdd" />
       <extension name="coverage">
@@ -62,6 +62,22 @@
       <option name="PACKAGE_NAME" value="com.github.bdeenyy" />
       <option name="MAIN_CLASS_NAME" value="com.github.bdeenyy.PhoneBookTest" />
       <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneBookTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework_phoneBook-tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.bdeenyy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.bdeenyy" />
+      <option name="MAIN_CLASS_NAME" value="com.github.bdeenyy.PhoneBookTest" />
+      <option name="METHOD_NAME" value="findByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PhoneBookTest.findByName" />
         <item itemvalue="JUnit.PhoneBookTest.findByNumber" />
         <item itemvalue="JUnit.PhoneBookTest.add" />
       </list>
@@ -127,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669625984163</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="findByNumber implemented">
+      <created>1669626284035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669626284035</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +170,7 @@
     <MESSAGE value="Stub and tests for add" />
     <MESSAGE value="add implemented" />
     <MESSAGE value="Stub and tests for findByNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stub and tests for findByNumber" />
+    <MESSAGE value="findByNumber implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="findByNumber implemented" />
   </component>
 </project>
