@@ -65,7 +65,7 @@ class PhoneBookTest {
         String testName4 = "Test4";
         String testNumber4 = "1234564";
 
-        String expected = "[testName1, testName2, testName3, testName4]";
+        String expected = "[Test1, Test2, Test3, Test4]";
 
         phoneBook.add(testName2, testNumber2);
         phoneBook.add(testName4, testNumber4);
