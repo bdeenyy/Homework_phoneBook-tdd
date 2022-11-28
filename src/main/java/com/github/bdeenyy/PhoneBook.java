@@ -25,4 +25,7 @@ public class PhoneBook {
         }
         return phoneNumber;
     }
+    public String printAllNames(){
+        return null;
+    }
 }

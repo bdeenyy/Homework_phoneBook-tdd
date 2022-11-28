@@ -48,4 +48,31 @@ class PhoneBookTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test
+    void printAllNames() {
+        PhoneBook phoneBook = new PhoneBook();
+
+        String testName1 = "Test1";
+        String testNumber1 = "1234561";
+
+        String testName2 = "Test2";
+        String testNumber2 = "1234562";
+
+        String testName3 = "Test3";
+        String testNumber3 = "1234563";
+
+        String testName4 = "Test4";
+        String testNumber4 = "1234564";
+
+        String expected = "[testName1, testName2, testName3, testName4]";
+
+        phoneBook.add(testName2, testNumber2);
+        phoneBook.add(testName4, testNumber4);
+        phoneBook.add(testName1, testNumber1);
+        phoneBook.add(testName3, testNumber3);
+
+        String actual = phoneBook.printAllNames();
+        assertEquals(expected, actual);
+    }
 }
