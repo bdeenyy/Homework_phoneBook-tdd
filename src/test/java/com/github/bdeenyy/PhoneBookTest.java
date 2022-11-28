@@ -33,6 +33,7 @@ class PhoneBookTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findByName() {
         PhoneBook phoneBook = new PhoneBook();
@@ -43,7 +44,7 @@ class PhoneBookTest {
 
         String expected = testName;
 
-        String actual = phoneBook.findByNumber(testNumber);
+        String actual = phoneBook.findByName(testNumber);
 
         assertEquals(expected, actual);
     }
